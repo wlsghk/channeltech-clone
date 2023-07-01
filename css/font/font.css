@@ -1,0 +1,29 @@
+/* 나눔스퀘어 볼드 */
+@font-face {
+    font-family: "NanumSquareNeoOTF-Bd";
+    src: url("NanumSquareNeoOTF-Bd.otf");
+}
+
+/* 레귤러 */
+@font-face {
+    font-family: "NanumSquareNeoOTF-Rg";
+    src: url("NanumSquareNeoOTF-Rg.otf");
+}
+
+/* 라이트 */
+@font-face {
+    font-family: "NanumSquareNeoOTF-Lt";
+    src: url("NanumSquareNeoOTF-Lt.otf");
+}
+
+/* 엑스트라볼드 */
+@font-face {
+    font-family: "NanumSquareNeoOTF-Eb";
+    src: url("NanumSquareNeoOTF-Eb.otf");
+}
+
+/* 헤비 */
+@font-face {
+    font-family: "NanumSquareNeoOTF-Hv";
+    src: url("NanumSquareNeoOTF-Hv.otf");
+}
