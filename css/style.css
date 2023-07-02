@@ -4,15 +4,27 @@
   margin: 0px;
   box-sizing: border-box;
   width: 100%;
-}
-
-.wrapper {
-  margin: 0px 160px;
+  overflow-x: hidden;
 }
 
 .header {
+  width: 100%;
   font-family: "Neo-ExtraBold";
   padding: 30px 0px;
   height: 110px;
   font-size: 18px;
+}
+.header .inner {
+  padding: 0px 160px;
+}
+
+.logo {
+  display: flex;
+}
+.logo .logo-img {
+  width: 201px;
+  margin-right: 69.79vw;
+}
+.logo .search {
+  width: 46px;
 }/*# sourceMappingURL=style.css.map */

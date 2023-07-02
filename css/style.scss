@@ -20,17 +20,33 @@
 * {
     @include zero();
     width: 100%;
+    overflow-x: hidden;
 }
 
 // 컨테이너
-.wrapper {
-    margin: 0px 160px;
-}
 
 // 헤더
 .header {
+    width: 100%;
     font-family: "Neo-ExtraBold";
     padding: 30px 0px;
     height: 110px;
     font-size: 18px;
+
+    .inner {
+        padding: 0px 160px;
+    }
+}
+
+.logo {
+    display: flex;
+
+    .logo-img {
+        width: 201px;
+        margin-right: 69.79vw;
+    }
+
+    .search {
+        width: 46px;
+    }
 }
